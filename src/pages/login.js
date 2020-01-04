@@ -1,8 +1,10 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Image, Text } from 'react-native';
+
+import logo from '../assets/logo.png';
 
 export default function Login() {
   return <View>
-    <Text>Hello world</Text>
+    <Image source={logo} />
   </View>
 }
